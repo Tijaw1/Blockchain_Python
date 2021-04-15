@@ -124,10 +124,13 @@ You'll need to set the account with  `priv_key_to_account` and use `send_tx` to 
 - Send a transaction to another testnet address (either one of your own, or the faucet's).
 
 - Screenshot the confirmation of the transaction like so:
-  
+  Initial start:
   ![BTCTest Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/btc-1.PNG)
+  Transaction
   ![BTCTest Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/btc-2.PNG)
+  Transaction
   ![BTCTest Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/btc-3.PNG)
+  Transaction check
   ![BTCTest Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/btc-4.PNG)
 
 #### Local PoA Ethereum transaction
@@ -149,8 +152,11 @@ w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
 - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
   MyCrypto's TX Status, and screenshot the successful transaction like so:
-  
+  Initial start
   ![ETH Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/eth1-pre.PNG)
+  Prefunding the account
   ![ETH Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/eth1-pre1.PNG)
+  Transaction
   ![ETH Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/eth1-pre2.PNG)
+  Transaction
   ![ETH Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/eth1-pre3.PNG)
