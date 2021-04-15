@@ -54,7 +54,7 @@ To be able to run the program, make sure the folowing conditions are met:
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
   When done properly, the final object should look something like this (there are only 3 children each in this image):
 
- !https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/setup.PNG
+ ![wallet_config1](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/setup.PNG)
 
   ### Linking the transaction signing libraries
 
@@ -124,8 +124,11 @@ You'll need to set the account with  `priv_key_to_account` and use `send_tx` to 
 - Send a transaction to another testnet address (either one of your own, or the faucet's).
 
 - Screenshot the confirmation of the transaction like so:
-
-
+  
+  ![BTCTest Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/btc-1.PNG)
+  ![BTCTest Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/btc-2.PNG)
+  ![BTCTest Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/btc-3.PNG)
+  ![BTCTest Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/btc-4.PNG)
 
 #### Local PoA Ethereum transaction
 
@@ -146,3 +149,8 @@ w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
 - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
   MyCrypto's TX Status, and screenshot the successful transaction like so:
+  
+  ![ETH Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/eth1-pre.PNG)
+  ![ETH Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/eth1-pre1.PNG)
+  ![ETH Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/eth1-pre2.PNG)
+  ![ETH Transaction](https://github.com/Tijaw1/Blockchain_Python/blob/main/wallet/Screenshots/eth1-pre3.PNG)
