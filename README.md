@@ -54,7 +54,7 @@ To be able to run the program, make sure the folowing conditions are met:
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
   When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-  Image
+  C:\Blockchain-Tools\Screenshots\setup
 
   ### Linking the transaction signing libraries
 
